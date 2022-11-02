@@ -228,7 +228,7 @@ class DataWorker:
 if __name__ == '__main__':
     dw = DataWorker()
     dw.read_csv()
-    sq = 'author'
+    
     print('СПРАВКА\n-. выход: EOF (*nix: Ctrl-D, Windows: Ctrl-Z+Return) '
           'или Enter (без ввода).')
     print('-' * 79)
